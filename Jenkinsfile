@@ -1,7 +1,7 @@
 pipeline{
  agent any
  tools{
-    M2_Home
+    maven M2_Home
   {
     steps{
      sh 'mvn clean'
