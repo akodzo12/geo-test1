@@ -30,7 +30,8 @@ stage('upload artifact'){
              groupId: 'qa',
               nexusUrl: '198.58.119.40:8081
                nexusVersion: 'nexus3',
-                protocol: 'http', repository: 'Kodzo-repo', version: '002''
+                protocol: 'http',
+                 repository: 'Kodzo-repo', version: '0.0.2''
 }
 
     }
